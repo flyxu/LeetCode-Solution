@@ -1,8 +1,5 @@
 package leetcode;
 
-import java.util.LinkedList;
-import java.util.Stack;
-
 class ListNode{
 	ListNode  next;
 	int val;
