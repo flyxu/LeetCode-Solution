@@ -1,4 +1,3 @@
-package leetcode;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -20,9 +19,9 @@ public class sort_1 {
         int result[]=new int[list.size()];
         for(int i=0;i<list.size();i++){
         	result[i]=list.get(i);
-        }  
+        }
         return result;
-        
+
     }
     public static int[] twosum2(int [] nums,int target){
     	HashMap<Integer, Integer> hashmap=new HashMap<Integer,Integer>();
@@ -40,14 +39,14 @@ public class sort_1 {
     		}
     	}
     	return result;
-    	
+
     }
     public static void main(String args[]){
-    	int a[]={2, 8, 11, 15};
+    	int a[]={2, 7, 11, 15};
     	int target=9;
     	int[] result=twosum2(a, target);
     	for(int b:result){
-    		System.out.println(b);
+    	 System.out.println(b);
     	}
     }
 
